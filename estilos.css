@@ -1,0 +1,47 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: rgb(202, 159, 243);
+    color: #ffffff;
+}
+
+.Princesa {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+button {
+    background-color: #6a13db68;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 10px 23px;
+    transition: transform 0.3s ease;
+    border-radius: 70px;
+    
+}
+
+#shadow-container {
+    width: 200px;
+    height: 200px;
+    border: 3px solid #6510a6;
+    margin: 3px;
+    display: inline-block;
+    position: relative;
+    padding-top: 50px;
+}
+
+#div1{
+    width: 200px;
+    height: 200px;
+    border: 3px solid #6510a6;
+    margin: 3px;
+    display: inline-block;
+    position: relative;
+    padding-top: 50px;
+  }

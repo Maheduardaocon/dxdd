@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+        <link rel="stylesheet" href="estilos.css">
+        <script src="main.js"></script>
+</head>
+
+<body onload="Princesas()">
+        <h1>Arraste as princesas para a sombra misteriosa!</h1>
+
+
+        <div id="shadow-container"><img src="img" alt=""></div>
+
+        <div id="Prince">
+                <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+                </div>
+        </div>
+
+
+        <div id="Princesa">
+                <div class="Princesa" id="Princesa1" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <img draggable="true" ondragstart="drag(event)" id="drag1" src="img/1.png" width="100"
+                                alt="Princesa 1">
+                </div>
+
+                <div class="Princesa" id="Princesa2" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <img draggable="true" ondragstart="drag(event)" id="drag2" src="img/2.png" width="100"
+                                alt="Princesa 2">
+                </div>
+
+                <div class="Princesa" id="Princesa3" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <img draggable="true" ondragstart="drag(event)" id="drag3" src="img/3.png" width="100"
+                                alt="Princesa 3">
+                </div>
+
+                <div class="Princesa" id="Princesa4" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <img draggable="true" ondragstart="drag(event)" id="drag4" src="img/4.png" width="100"
+                                alt="Princesa 4">
+                </div>
+
+                <div class="Princesa" id="Princesa5" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <img draggable="true" ondragstart="drag(event)" id="drag5" src="img/5.png" width="100"
+                                alt="Princesa 5">
+                </div>
+
+                <div class="Princesa" id="Princesa6" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <img draggable="true" ondragstart="drag(event)" id="drag6" src="img/6.png" width="100"
+                                alt="Princesa 6">
+                </div>
+
+
+                <div class="Princesa" id="Princesa7" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <img draggable="true" ondragstart="drag(event)" id="drag7" src="img/7.png" width="100"
+                                alt="Princesa 7">
+                </div>
+
+
+                <div class="Princesa" id="Princesa8" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <img draggable="true" ondragstart="drag(event)" id="drag8" src="img/8.png" width="100"
+                                alt="Princesa 8">
+                </div>
+
+        </div>
+
+
+
+        <button id="Princesas" onclick="aleatorio()">Próxima princesa</button>
+
+
+</body>
+
+</html>
